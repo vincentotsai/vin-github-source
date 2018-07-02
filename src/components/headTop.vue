@@ -10,11 +10,12 @@
 </template>
 <style lang="less" scoped>
 @media screen and (max-width: 400px) {
-  
+
 }
 .head {
   position: fixed;
-  height: 42px;
+  top: 0;
+  height: 82px;
   width: 100%;
   z-index: 200;
   color: #222;
@@ -33,8 +34,8 @@
     li {
       float: left;
       text-align: center;
-      line-height: 42px;
-      height: 42px;
+      line-height: 82px;
+      height: 82px;
       position: relative;
       margin: 0 12px;
       background-color: hsla(0, 0%, 100%, 0);

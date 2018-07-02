@@ -1,6 +1,6 @@
 <template>
   <section class="article-container">
-    
+
     <articleList></articleList>
   </section>
 </template>
@@ -16,6 +16,7 @@ export default {
 <style lang="less" scoped>
 .article-container {
   padding-top: 42px;
+  font-size: 16px;
 }
 </style>
 

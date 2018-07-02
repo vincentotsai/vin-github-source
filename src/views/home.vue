@@ -54,7 +54,8 @@ export default {
 </script>
 <style lang="less" scoped>
 .home {
-  padding-top: 42px;
+  // padding-top: 42px;
+  font-size: 16px;
   @media screen and (max-width: 400px) {
     .rec {
       padding: 10px 12px;
@@ -83,7 +84,7 @@ export default {
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
       }
     }
-  } 
+  }
   .rec-article {
     padding: 10px 100px;
     text-align: left;
