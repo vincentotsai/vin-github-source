@@ -1,31 +1,18 @@
 <template>
   <section class="home">
     <div class="rec">
-      <!-- <form action="" id="myform">
-        <label for="search">搜索🔍</label>
-        <input type="text" id="search" value="11">
-        <input type="submit" value="submit me">
-      </form> -->
       <h1 class="mine">个人项目</h1>
       <div class="title">
-        <h1>
-          <a href="https://github.com/vincentotsai/vue-shoppingMall.git" target="_blank">vue + node + mongoDB 全栈商城项目</a>
-        </h1>
+        <a class="link" href="https://github.com/vincentotsai/vue-shoppingMall.git" target="_blank">vue + node + mongoDB 全栈商城项目</a>
       </div>
       <div class="title">
-        <h1>
-          <a href="https://github.com/vincentotsai/vin-keepalive.git" target="_blank">vue2 内部 keep-alive 组件实现页面缓存</a>
-        </h1>
+        <a class="link" href="https://github.com/vincentotsai/vin-keepalive.git" target="_blank">vue2 内部 keep-alive 组件实现页面缓存</a>
       </div>
       <div class="title">
-        <h1>
-          <a href="https://github.com/vincentotsai/vin-repo.git" target="_blank">个人常用代码库</a>
-        </h1>
+        <a class="link" href="https://github.com/vincentotsai/vin-repo.git" target="_blank">个人常用代码库</a>
       </div>
       <div class="title">
-        <h1>
-          <a href="https://github.com/vincentotsai/vin-parcel.git" target="_blank">parcel初尝试 ：项目构建工具，轻量又高效</a>
-        </h1>
+        <a class="link" href="https://github.com/vincentotsai/vin-parcel.git" target="_blank">parcel初尝试 ：项目构建工具，轻量又高效</a>
       </div>
     </div>
 
@@ -67,10 +54,14 @@ export default {
         margin-bottom: 5px;
         border-radius: 10px;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        .link {
+          color: black !important;
+          font-size: 14px;
+        }
       }
     }
   }
-  @media screen and (min-width: 400px){
+  @media screen and (min-width: 400px) {
     .rec {
       text-align: left;
       padding: 10px 100px;

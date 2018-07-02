@@ -2,15 +2,23 @@
   <header class="head">
     <div class="nav-mask"></div>
     <ul>
-      <li><router-link :to="'/home'">home</router-link></li>
-      <li><router-link :to="'/articles'">articles</router-link></li>
-      <li><router-link :to="'/about'">about</router-link></li>
+      <li>
+        <router-link :to="'/home'">home</router-link>
+      </li>
+      <li>
+        <router-link :to="'/articles'">articles</router-link>
+      </li>
+      <li>
+        <router-link :to="'/about'">about</router-link>
+      </li>
     </ul>
   </header>
 </template>
+<script>
+</script>
+
 <style lang="less" scoped>
 @media screen and (max-width: 400px) {
-
 }
 .head {
   position: fixed;
@@ -19,6 +27,7 @@
   width: 100%;
   z-index: 200;
   color: #222;
+  margin-left: -3.2rem;
   .nav-mask {
     position: absolute;
     top: 0;
@@ -44,5 +53,9 @@
       transition: all 0.3s;
     }
   }
+}
+.router-link-active {
+  color: dodgerblue;
+  font-weight: bold;
 }
 </style>

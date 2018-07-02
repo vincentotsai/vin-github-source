@@ -21,6 +21,7 @@
 </template>
 <style lang="less" scoped>
 .foot {
+  margin: 0 -10rem;
   .top {
     background: #2c3e50;
     padding: 50px 15px;
