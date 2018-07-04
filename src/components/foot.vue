@@ -4,12 +4,12 @@
       <ul class="social">
         <li>
           <a href="https://github.com/vincentotsai" title="Github" target="_blank">
-            <i class="fa fa-github"></i>
+            <i class="fa fa-github trans"></i>
           </a>
         </li>
         <li>
           <a href="mailto:vintotsai@gmail.com" title="Google Mail" target="_blank">
-            <i class="fa fa-envelope-o"></i>
+            <i class="fa fa-envelope-o trans"></i>
           </a>
         </li>
       </ul>
@@ -40,6 +40,12 @@
       }
       li a:hover {
         color: #2980b9;
+      }
+      .trans{
+        transition: transform 1s ease-in 0ms;
+      }
+      .trans:hover {
+        transform: rotate(-180deg) scale(1.5,1.5)
       }
     }
   }
