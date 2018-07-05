@@ -2,73 +2,94 @@
   {
     "tag": "readme",
     "file": "0.readme.md",
-    "name": "readme",
-    "title": "每个项目都有一个readme",
+    "title": "README",
     "preview":
       "一直以来都想搭建一个自己的博客, 但是刚好不久前阿里云的试用半年的服务器到期了, 也一直没找到物美价廉(乞丐版)的服务器(角落里画圈圈)，但是博客还得搭呀, 所以就试着用Vue和Github Pages...",
     "author": "vin",
     "subTitle": "build blog with vue and markdown",
-    "createdTime": "2017-10-10",
-    "bac": "http://ww2.sinaimg.cn/large/0060lm7Tly1fo8x0hic3zj31kw11x7wh.jpg"
+    "createdTime": "2017-10-10"
   },
   {
-    "tag": "javascript",
+    "tag": "javascript 面试",
     "file": "1.fe-interview.md",
-    "name": "readme",
     "title": "web前端interview",
-    "preview": "可以说比较全面了，html css js基础都有涉及，适宜多品...",
-    "author": "MIT",
+    "preview":
+      "比较全面，html css js基础都有涉及，也会陆陆续续补充遇到的新问题，适宜反复咀嚼...",
+    "author": "",
     "subTitle": "build blog with vue and markdown",
-    "createdTime": "2018-06-02",
-    "bac": "http://ww2.sinaimg.cn/large/0060lm7Tly1fo8x0hic3zj31kw11x7wh.jpg"
+    "createdTime": "2017-11-02"
   },
   {
-    "tag": "javascript",
+    "tag": "javascript markdown",
     "file": "2.vue-markdown-loader.md",
-    "name": "vue-markdown-loader",
-    "title": "vue-markdown-loader",
-    "preview":
-      "在上篇, 已经完成了项目初始化和集成vue-markdown-loader成功解析了.md文件",
+    "title": "vue-markdown-loader 一个能将MD转成vue组件的工具",
+    "preview": "已经完成了项目初始化和集成vue-markdown-loader成功解析了.md文件",
     "author": "vin",
     "subTitle": "build blog with vue and markdown",
-    "createdTime": "2018-02-04",
-    "bac": "http://ww2.sinaimg.cn/large/0060lm7Tly1fo8x0hic3zj31kw11x7wh.jpg"
+    "createdTime": "2018-02-04"
   },
-
   {
+    "tag": "javascript parcel",
     "file": "3.parcel.md",
     "title": "parcel初尝试",
+    "author": "vin",
     "preview": "webpack > parcel",
+    "subTitle": "build blog with vue and markdown",
     "createdTime": "2018-06-03"
   },
   {
+    "tag": "JS vue-cli",
     "file": "4.vue-cli.md",
-    "title": "vue-cli 快速拾获",
+    "title": "vue-cli 快速get",
+    "author": "vin",
     "preview": "vue脚手架使用...",
+    "subTitle": "build blog with vue and markdown",
     "createdTime": "2018-06-04"
   },
   {
+    "tag": "JS VSCode",
     "file": "5.vscode-plugins.md",
     "title": "vscode web开发常用必备插件（不定期更新...）",
+    "author": "vin",
     "preview": "vscode web开发常用必备插件（不定期更新...）",
+    "subTitle": "build blog with vue and markdown",
     "createdTime": "2018-06-12"
   },
   {
+    "tag": "JS package.json",
     "file": "6.packagejson.md",
     "title": "package.json里的版本说明",
+    "author": "vin",
     "preview": "package.json里的版本说明",
+    "subTitle": "build blog with vue and markdown",
     "createdTime": "2018-06-20"
   },
   {
+    "tag": "JS 浏览器渲染原理",
     "file": "7.浏览器渲染原理.md",
     "title": "浏览器渲染原理",
+    "author": "vin",
     "preview": "浏览器渲染原理",
+    "subTitle": "build blog with vue and markdown",
     "createdTime": "2018-06-30"
   },
   {
+    "tag": "JS Emmet",
     "file": "8.emmet.md",
     "title": "emmet 提升前端开发效率",
-    "preview": "在前端开发的过程中，编写 HTML、CSS 代码始终占据了很大的工作比例。特别是手动编写 HTML 代码，效率特别低下，因为需要敲打各种“尖括号”、闭合标签等。而现在 Emmet...",
+    "author": "vin",
+    "preview":
+      "前端编写HTML、CSS 代码始终占据了很大的工作比例。特别是手动编写 HTML 代码，需要敲打各种“尖括号”、闭合标签。而现在 Emmet...",
+    "subTitle": "build blog with vue and markdown",
     "createdTime": "2018-07-03"
+  },
+  {
+    "tag": "JS 函数式编程",
+    "file": "9.JS函数式编程总结.md",
+    "title": "JS函数式编程总结",
+    "author": "vin",
+    "preview": "JS函数式编程总结",
+    "subTitle": "build blog with vue and markdown",
+    "createdTime": "2018-07-04"
   }
 ]
