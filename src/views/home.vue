@@ -1,5 +1,5 @@
 <template>
-  <section class="home">
+  <section class="home markdown-body">
     <div class="rec">
       <h1 class="mine">个人项目</h1>
       <div class="title">

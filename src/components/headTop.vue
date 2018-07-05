@@ -27,7 +27,7 @@
   width: 100%;
   z-index: 200;
   color: #222;
-  margin-left: -3.2rem;
+  padding: 0 12px;
   .nav-mask {
     position: absolute;
     top: 0;

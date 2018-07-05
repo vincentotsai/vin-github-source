@@ -8,7 +8,6 @@
   </section>
 </template>
 <script>
-// import axios from 'axios'
 import Articles from '@/articles/articles.json'
 
 export default {
@@ -34,7 +33,7 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-@media screen and (min-width: 400px) {
+@media all and (min-width: 400px) {
   .articles {
     padding: 10px 100px;
     .article {
@@ -51,7 +50,7 @@ export default {
     }
   }
 }
-@media screen and (max-width: 400px) {
+@media all and (max-width: 399px) {
   .articles {
     padding: 10px 12px;
     .article {

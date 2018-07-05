@@ -1,5 +1,5 @@
 <template>
-  <section class="article-container">
+  <section class="article-container markdown-body">
 
     <articleList></articleList>
   </section>
@@ -15,7 +15,6 @@ export default {
 </script>
 <style lang="less" scoped>
 .article-container {
-  padding-top: 42px;
   font-size: 16px;
 }
 </style>

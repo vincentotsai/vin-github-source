@@ -15,13 +15,13 @@
       </ul>
     </div>
     <section class="bottom">
-      <div class="copyright">@2016-2018 Vin - 奇点</div>
+      <div class="copyright">@2016-present Vin - 奇点</div>
     </section>
   </footer>
 </template>
 <style lang="less" scoped>
 .foot {
-  margin: 0 -10rem;
+  // margin: 0 -10rem;
   .top {
     background: #2c3e50;
     padding: 50px 15px;

@@ -24,7 +24,7 @@
     "file": "2.vue-markdown-loader.md",
     "title": "vue-markdown-loader 一个能将MD转成vue组件的工具",
     "preview": "已经完成了项目初始化和集成vue-markdown-loader成功解析了.md文件",
-    "author": "vin",
+    "author": "",
     "subTitle": "build blog with vue and markdown",
     "createdTime": "2018-02-04"
   },
