@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <h1 class="rec-article">文章推荐</h1>
+    <h1 class="rec-article">最新文章</h1>
     <articleList></articleList>
 
   </section>
@@ -27,15 +27,6 @@ export default {
   name: 'home',
   components: {
     articleList
-  },
-  mounted() {
-    // const searchEle = document.getElementById('search')
-    // searchEle.value = 2
-    // const myform = document.getElementById('myform')
-    // function handleSubmit(e) {
-    //   console.log('e->>>', e.target.search.value)
-    // }
-    // myform.addEventListener('submit', handleSubmit, false)
   }
 }
 </script>

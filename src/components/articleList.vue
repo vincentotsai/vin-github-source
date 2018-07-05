@@ -22,15 +22,12 @@ export default {
   },
   methods: {
     getData() {
-      // axios.get('./static/index.json').then(res => {
-      //   let data = res.data.data
-      //   this.articles = data
-      // })
-      this.articles = Articles
+      // 倒序显示 最新在最前
+      this.articles = Articles.reverse()
     },
     link(item, index) {
       this.$router.push({
-        path: `/articles/${index}`
+        path: `/articles/${this.articles.length - 1 - index}`
       })
     }
   }
