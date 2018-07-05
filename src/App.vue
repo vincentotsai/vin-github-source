@@ -26,27 +26,19 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: #2c3e50;
-}
-@media screen and (max-width: 400px) {
-  #app {
-    /* padding: 10px 100px; */
-    /* background: #ccc; */
-  }
 }
 .markdown-body {
   box-sizing: border-box;
   min-width: 400px;
-  /* max-width: 980px; */
   font-size: 1rem;
   padding: 0 45px;
-  margin-top: 42px;
+  margin-top: 82px;
 }
 
 @media (max-width: 767px) {
   .markdown-body {
-    padding: 0 35px;
+    padding: 0 15px;
   }
 }
 </style>

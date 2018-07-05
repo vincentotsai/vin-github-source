@@ -33,38 +33,24 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-@media all and (min-width: 400px) {
-  .articles {
-    padding: 10px 100px;
-    .article {
-      padding: 10px;
-      margin-bottom: 5px;
-      border-radius: 10px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-      text-align: left;
-      cursor: pointer;
-      .date {
-        font-size: 13px;
-        color: #ccc;
-      }
+.articles {
+  padding: 10px 100px;
+  .article {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    cursor: pointer;
+    .date {
+      font-size: 13px;
+      color: #ccc;
     }
   }
 }
-@media all and (max-width: 399px) {
+@media (max-width: 400px) {
   .articles {
     padding: 10px 12px;
-    .article {
-      padding: 10px;
-      margin-bottom: 5px;
-      border-radius: 10px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-      text-align: left;
-      cursor: pointer;
-      .date {
-        font-size: 13px;
-        color: #ccc;
-      }
-    }
   }
 }
 </style>

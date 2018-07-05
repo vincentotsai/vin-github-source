@@ -18,8 +18,6 @@
 </script>
 
 <style lang="less" scoped>
-@media screen and (max-width: 400px) {
-}
 .head {
   position: fixed;
   top: 0;
